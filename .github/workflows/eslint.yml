@@ -20,4 +20,4 @@ jobs:
           node-version: 14.17.1
  
       # Install your dependencies 
-      - run: npx eslint . --ext .js,.jsx,.ts,.tsx
+      - run: npx eslint src/** .js,.jsx,.ts,.tsx
