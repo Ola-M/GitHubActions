@@ -35,7 +35,12 @@
     "no-unused-vars": "off",
     "import/prefer-default-export": "off",
     "prettier/prettier": [
-      "error"
+      "error",
+      {
+        "endOfLine": "auto",
+        "printWidth": 70,
+        "tabWidth": 4
+      }
     ],
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": [
